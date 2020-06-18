@@ -1,7 +1,7 @@
 <h1>폰트를 이용한 한글 손글씨 인식</h1>
 
 
-전체적인 코드는 [이곳](https://github.com/MijeongJeon/KoreanClassification_Keras_Coreml) 과 [이곳]((https://github.com/IBM/tensorflow-hangul-recognition))을 참고하였습니다
+전체적인 코드는 [이곳](https://github.com/MijeongJeon/KoreanClassification_Keras_Coreml) 과 [이곳](https://github.com/IBM/tensorflow-hangul-recognition)을 사용하였습니다
 
 
 
@@ -18,6 +18,7 @@
 해당 데이터 생성기는 512개의 음절을 만들어냅니다. 컴퓨터의 성능이 좋다면 음절을 더 추가하여 만들 수 있습니다. 음절을 추가할수록 생성되는 글자 데이터 양이 증가합니다.
 
 준비가 완료되면 로컬에서 해당 명령어를 실행시켜줍니다.
+더 자세하게 알고싶다면 [여기](https://github.com/IBM/tensorflow-hangul-recognition)를 참고하세요. 저 또한 이곳의 코드를 사용하였습니다.
 
 ```py
 python ./tools/hangul-image-generator.py
@@ -32,6 +33,7 @@ python ./tools/hangul-image-generator.py
 </h3>
 
 데이터를 만들어 주었다면 hangul_data.ipynb의 내용을 실행시켜주십시오.
+자세한 내용을 알고싶다면 [여기](https://github.com/MijeongJeon/KoreanClassification_Keras_Coreml)를 참고하세요. 저 또한 이곳의 코드를 사용하였습니다.
 
 
 
