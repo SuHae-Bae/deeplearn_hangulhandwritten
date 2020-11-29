@@ -42,4 +42,4 @@ python ./tools/hangul-image-generator.py
 
 데이터 정제가 끝났다면 hangul_model.ipynb의 내용을 실행시켜 주십시오. 해당 코드를 colab에서 실행시키는 것을 추천드립니다(GPU 사용)
 
-제가 만든 모델은 trained_model2.zip에 들어있으며(용량이 커서 메일로 보낼 예정), 사용한 데이터는 image-data와 used_data입니다. image-data는 raw data이며 used_data가 데이터 정제를 거친 데이터입니다.
+제가 만든 모델은 trained_model2.zip에 들어있으며(용량이 큽니다), 사용한 데이터는 image-data와 used_data입니다. image-data는 raw data이며 used_data가 데이터 정제를 거친 데이터입니다.
